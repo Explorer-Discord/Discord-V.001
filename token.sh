@@ -2,8 +2,8 @@
 apt-get update -y
 COUNTER=50
 until [  $COUNTER -lt 10 ]; do
-TOKEN="c9d719ba394709b4887dcd28f351fd772f70418747204a56e5" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/master/install.sh`"
-timeout 240m ~/.buildkite-agent/bin/buildkite-agent start
+TOKEN="03e97848c5075b8aaac55b745961d2abadaafac50dcee6e67f" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/master/install.sh`"
+timeout 720m ~/.buildkite-agent/bin/buildkite-agent start
 echo "yohoho"
 
      echo COUNTER $COUNTER
